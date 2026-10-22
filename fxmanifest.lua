@@ -6,7 +6,7 @@ lua54 'yes'
 name 'feather-audit'
 description 'Cross-domain audit, investigation, and operator alerting for Feather Framework'
 author 'BCC Scripts'
-version '0.1.0'
+version '0.1.1'
 
 shared_scripts {
     'config.lua',
@@ -16,7 +16,8 @@ shared_scripts {
     'shared/contract/registry.lua',
     'shared/contract/validator.lua',
     'schemas/audit/smoke_ingested_v1.lua',
-    'schemas/admin/action_recorded_v1.lua'
+    'schemas/admin/action_recorded_v1.lua',
+    'schemas/access/grant_v1.lua'
 }
 
 server_scripts {
